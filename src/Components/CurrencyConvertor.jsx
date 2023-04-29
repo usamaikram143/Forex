@@ -35,12 +35,6 @@ const Currency_convertor = () => {
      var rate=info[to];
      setOutput(input*rate);
  }
- function flip(){
-     var temp={from};
-     setFrom(to);
-     setTo(temp);
- }
- 
 
   return (
     <div className='convertor_container'>
