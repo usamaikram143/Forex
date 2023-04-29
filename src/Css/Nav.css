@@ -1,0 +1,27 @@
+.nav {
+    background: rgb(48, 47, 47);
+    text-align: start;
+    height: 2rem;
+}
+
+.link {
+    color: white;
+    padding: 1.8rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+
+.link.active {
+    font-weight: bold;
+    color: rgb(116, 114, 114);
+}
+
+@media screen and (max-width:600px) {
+    
+    .link {
+        padding: 0.5rem;
+        font-size: 0.89rem;
+    }
+}
+
